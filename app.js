@@ -30,4 +30,12 @@ let nama = 'LaelaWulida'
 document.getElementById('nama').innerHTML = nama
 
 //DOM CSS
-document.getElementById('nama').style.color = 'Blue'
+document.getElementById('nama').style.color = 'Yellow'
+document.getElementById('nama').style.backgroundColor = 'Black'
+
+document.getElementById('nim').style.color = 'Red'
+
+//Function
+function ubahWarna(){
+    document.getElementById('nama').style.backgroundColor = 'Black'
+}
