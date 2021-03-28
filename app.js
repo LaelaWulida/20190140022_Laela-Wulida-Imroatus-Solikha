@@ -30,12 +30,12 @@ document.getElementById('tanggal').style.backgroundColor = 'rgb'
 //DOM HTML
 
 //DOM CSS
-document.getElementById('nama').style.color = 'Black'
-document.getElementById('nama').style.backgroundColor = 'Orange'
+document.getElementsByClassName('Data').style.color = 'Black'
+document.getElementsByClassName('Data').style.backgroundColor = 'Orange'
 
-document.getElementById('nim').style.color = 'Red'
+
 
 //Function
-function ubahWarna(){
-    document.getElementById('nim').style.backgroundColor = 'Blue'
-}
+//function ubahWarna(){
+    //document.getElementById('nim').style.backgroundColor = 'Blue'
+//}
