@@ -31,8 +31,10 @@ document.getElementById('tanggal').style.textAlign = "Center"
 //DOM HTML
 
 //DOM CSS
-document.getElementsById('Data').style.color = 'Red'
-document.getElementsById('Data').style.backgroundColor = 'Orange'
+let Data
+document.getElementById('Data').style.color = 'Red'
+document.getElementById('Data').style.backgroundColor = 'Orange'
+document.getElementById('Data').style.textAlign = 'Center'
 
 
 
