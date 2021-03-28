@@ -20,7 +20,7 @@ console.log(c)
 //Tanggal
 Date()
 let tanggal = Date()
-
+document.getElementById('tanggal').innerHTML = tanggal
 document.getElementById('tanggal').style.color = 'Blue'
 document.getElementById('tanggal').style.backgroundColor = 'rgb'
 
@@ -28,8 +28,6 @@ document.getElementById('tanggal').style.backgroundColor = 'rgb'
 //DOM Selector HTML
 //Document Object Model
 //DOM HTML
-let nama = 'LaelaWulida'
-document.getElementById('nama').innerHTML = nama
 
 //DOM CSS
 document.getElementById('nama').style.color = 'Black'
