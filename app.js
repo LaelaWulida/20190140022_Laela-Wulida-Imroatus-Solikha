@@ -18,7 +18,12 @@ let c = a + b
 console.log(c)
 
 //Tanggal
-
+Date()
+let tanggal = Date()
+document.getElementById('tanggal').innerHTML = tanggal
+document.getElementById('tanggal').style.color = 'Blue'
+document.getElementById('tanggal').style.backgroundColor = 'black'
+document.getElementById('tanggal').style.textAlign = "Center"
 
 
 //DOM Selector HTML
@@ -29,12 +34,7 @@ console.log(c)
 document.getElementsById('Data').style.color = 'Red'
 document.getElementsById('Data').style.backgroundColor = 'Orange'
 
-Date()
-let tanggal = Date()
-document.getElementById('tanggal').innerHTML = tanggal
-document.getElementById('tanggal').style.color = 'Blue'
-document.getElementById('tanggal').style.backgroundColor = 'black'
-document.getElementById('tanggal').style.textAlign = "Center"
+
 
 
 
