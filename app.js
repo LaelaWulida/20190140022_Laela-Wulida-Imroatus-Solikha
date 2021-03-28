@@ -25,4 +25,9 @@ alert(tanggal)
 
 //DOM Selector HTML
 //Document Object Model
-document.getElementById('nama').innerHTML="LaelaWulida"
+//DOM HTML
+let nama = 'LaelaWulida'
+document.getElementById('nama').innerHTML = nama
+
+//DOM CSS
+document.getElementById('nama').style.color = 'Blue'
