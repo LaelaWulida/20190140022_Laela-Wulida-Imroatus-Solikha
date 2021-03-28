@@ -20,7 +20,9 @@ console.log(c)
 //Tanggal
 Date()
 let tanggal = Date()
-alert(tanggal)
+
+document.getElementById('tanggal').style.color = 'Blue'
+document.getElementById('tanggal').style.backgroundColor = 'rgb'
 
 
 //DOM Selector HTML
@@ -30,12 +32,12 @@ let nama = 'LaelaWulida'
 document.getElementById('nama').innerHTML = nama
 
 //DOM CSS
-document.getElementById('nama').style.color = 'Yellow'
-document.getElementById('nama').style.backgroundColor = 'Black'
+document.getElementById('nama').style.color = 'Black'
+document.getElementById('nama').style.backgroundColor = 'Orange'
 
 document.getElementById('nim').style.color = 'Red'
 
 //Function
 function ubahWarna(){
-    document.getElementById('nama').style.backgroundColor = 'Black'
+    document.getElementById('nim').style.backgroundColor = 'Blue'
 }
