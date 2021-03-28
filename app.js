@@ -18,11 +18,7 @@ let c = a + b
 console.log(c)
 
 //Tanggal
-Date()
-let tanggal = Date()
-document.getElementById('tanggal').innerHTML = tanggal
-document.getElementById('tanggal').style.color = 'Blue'
-document.getElementById('tanggal').style.backgroundColor = 'rgb'
+
 
 
 //DOM Selector HTML
@@ -30,8 +26,15 @@ document.getElementById('tanggal').style.backgroundColor = 'rgb'
 //DOM HTML
 
 //DOM CSS
-document.getElementsByClassName('Data').style.color = 'Black'
-document.getElementsByClassName('Data').style.backgroundColor = 'Orange'
+document.getElementsById('Data').style.color = 'Red'
+document.getElementsById('Data').style.backgroundColor = 'Orange'
+
+Date()
+let tanggal = Date()
+document.getElementById('tanggal').innerHTML = tanggal
+document.getElementById('tanggal').style.color = 'Blue'
+document.getElementById('tanggal').style.backgroundColor = 'black'
+document.getElementById('tanggal').style.textAlign = "Center"
 
 
 
