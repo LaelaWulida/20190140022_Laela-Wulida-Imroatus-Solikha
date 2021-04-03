@@ -21,9 +21,21 @@ console.log(c)
 Date()
 let tanggal = Date()
 document.getElementById('tanggal').innerHTML = tanggal
-document.getElementById('tanggal').style.color = 'Blue'
-document.getElementById('tanggal').style.backgroundColor = 'black'
+document.getElementById('tanggal').style.color = 'Black'
+document.getElementById('tanggal').style.backgroundColor = 'grey'
 document.getElementById('tanggal').style.textAlign = "Center"
+
+document.getElementById('nama').style.color = 'Red'
+document.getElementById('nama').style.textAlign = "Center"
+
+document.getElementById('nim').style.color = 'Red'
+document.getElementById('nim').style.textAlign = "Center"
+
+document.getElementById('kelas').style.color = 'Red'
+document.getElementById('kelas').style.textAlign = "Center"
+
+document.getElementById('prak').style.textAlign = "center"
+document.getElementById('date').style.textAlign = "center"
 
 
 //DOM Selector HTML
@@ -31,10 +43,8 @@ document.getElementById('tanggal').style.textAlign = "Center"
 //DOM HTML
 
 //DOM CSS
-let Data
-document.getElementById('Data').style.color = 'Red'
-document.getElementById('Data').style.backgroundColor = 'Orange'
-document.getElementById('Data').style.textAlign = 'Center'
+
+
 
 
 
